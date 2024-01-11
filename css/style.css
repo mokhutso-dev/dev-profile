@@ -223,7 +223,7 @@ h3.my-profession{
 .home .home-info .buttons{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .home .home-info .buttons a{
     margin-right: 30px;
@@ -553,5 +553,11 @@ h3.my-profession{
     .about .about-text .personal-info{
         flex: 0 0 100%;
         max-width: 100% ;
+    }
+    .home-info {
+        font-size: 16px;
+    }
+    .home-info p{
+        font-size: 18px;
     }
 }
