@@ -223,6 +223,7 @@ h3.my-profession{
 .home .home-info .buttons{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .home .home-info .buttons a{
     margin-right: 30px;
@@ -387,6 +388,13 @@ h3.my-profession{
 .about .about-content .timeline .timeline-title{
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-profession{
+    font-weight: 600;
+    font-size: 16px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
