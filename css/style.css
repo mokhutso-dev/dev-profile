@@ -9,7 +9,8 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
     --skin-color: #997a8d ;
-    --footer: #0404;
+    --top-footer: #808080;
+    --bottom-footer: #696969;
 }
 
 body.dark {
@@ -509,6 +510,21 @@ h3.my-profession{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
+}
+
+/* Footer */
+footer {
+    background-color: yellow;
+    text-align: center;
+}
+.footer {
+    background-color: var(--ft-purple);
+}
+.footer .footer-container{
+    display: flex;
+}
+.footer .footer-container li{
+    text-decoration: none;
 }
 
 /* Responsiveness  */
