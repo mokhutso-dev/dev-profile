@@ -553,21 +553,17 @@ h3.my-profession{
         max-width: 100% ;
     }
     .home-info p{
-        font-size: 16px;
+        font-size: 14px;
     }
    
     h3.hello{
-        font-size: 18px;
-        margin: 8px 0;
+        font-size: 16px;
     } 
     h3.hello span{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
-        /* margin: 8px 0; */
-
     }
     h3.my-profession{
-        font-size: 18px;
-        /* margin: 15px 0; */
+        font-size: 14px;
     }
 }
