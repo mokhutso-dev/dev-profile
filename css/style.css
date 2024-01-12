@@ -64,12 +64,12 @@ ul{
 .container{
     max-width: 1100px;
     width: 100%;
-    /* margin: auto; */
+    margin: auto;
 }
-/* .section .container{
+.section .container{
     padding-top: 60px;
     padding-bottom: 60px;
-} */
+}
 .section-title{
     flex: 0 0 100%;
     max-width: 100%;
@@ -168,14 +168,10 @@ ul{
 .aside .nav li a.active{
     color: var(--skin-color);
 }
-/* .aside .nav li a:active{
-    color: var(--skin-color);
-} */
-
 
 /* home */
 .home{
-    min-height: 60%;
+    min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
@@ -260,13 +256,13 @@ h3.my-profession{
 .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
-/* .about .about-content .personal-info .info-item{
+.about .about-content .personal-info .info-item{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 40px;
-} */
+}
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
     padding: 10px 0;
