@@ -594,6 +594,9 @@ footer {
     font-family: 'Concert One';
     margin-bottom: 10px;
 }
+nav{
+    display: none;
+}
 
 /* Responsiveness  */
 @media (max-width:1199px){
@@ -607,6 +610,7 @@ footer {
         display: block;
         margin-left: 0;
     }
+    
 }
 @media (max-width:991px){
     .home .home-img,
@@ -650,4 +654,8 @@ footer {
     h3.my-profession{
         font-size: 14px;
     }
+    nav{
+        display: flex;
+    }
+   
 }
