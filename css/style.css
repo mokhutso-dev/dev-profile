@@ -9,10 +9,9 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
     --skin-color: #997a8d ;
-    --top-footer: #808080;
-    --bottom-footer: #696969;
+    --top-footer: #696969;
+    --bottom-footer: #322D31;
 }
-
 body.dark {
     --bg-black-900: #181616;
     --bg-black-100: #222222;
@@ -514,17 +513,35 @@ h3.my-profession{
 
 /* Footer */
 footer {
-    background-color: yellow;
+    /* background-color: #322D31; */
+    background-color: var(--bottom-footer);
     text-align: center;
 }
 .footer {
-    background-color: var(--ft-purple);
+    background-color: var(--top-footer);
 }
 .footer .footer-container{
     display: flex;
 }
 .footer .footer-container li{
     text-decoration: none;
+    cursor: pointer;
+}
+.footer .footer-container li a{
+    color: var(--bg-black-900);
+
+}
+.footer .footer-container .column{
+    /* background-color: yellow; */
+    flex: 0 0 33.33%;
+    padding: 15px;
+    text-align: center;
+}
+.footer .footer-container .footer-title{
+    font-size: 20px;
+    color: #070438;
+    font-family: 'Concert One';
+    margin-bottom: 10px;
 }
 
 /* Responsiveness  */
