@@ -159,6 +159,9 @@ ul{
     padding: 5px 15px;
     /* margin-right: 10px; */
 }
+.aside .nav li a i{
+    padding: 5px;
+}
 
 .aside .nav li a:hover{
     color: var(--skin-color);
@@ -648,6 +651,7 @@ nav{
         font-size: 18px;
         font-weight: 400px;
     }
+    
     h3.hello,
     .portfolio-heading h2{
         font-size: 16px;
