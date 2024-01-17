@@ -593,6 +593,13 @@ nav{
 
 /* Responsiveness  */
 @media (max-width:1199px){
+    .main-content{
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
     .aside{
         width: 100%;
         height: 60px;
@@ -605,7 +612,6 @@ nav{
         align-items: center;
         z-index: 10;
         border-bottom: 1px solid var(--bg-black-50);
-        /* z-index: 10; */
     }
     .aside .logo{
         /* width: auto; */
@@ -646,39 +652,13 @@ nav{
         border-style: none;
         color: var(--text-black-900);
     }
-    .main-content{
-        padding-left: 0;
-    }
-    .about .about-content .personal-info .info-item p span{
-        display: block;
-        margin-left: 0;
-    }
-    /* h3.hello{
-        font-size: 30px;
-        margin: 15px 0;
-    } 
-    h3.hello span{
-        font-family: 'Concert One';
-        font-size: 30px;
-        font-weight: 700;
-        margin: 15px 0;
-        color: var(--skin-color);
-    }
-    h3.my-profession{
-        font-size: 30px;
-        margin: 15px 0;
-    }
-    .typing{
-        color: var(--skin-color);
-    }
-    .home-info p{
-        margin-bottom: 20px;
-        font-size: 20px;
-        color: var(--text-black-700);
-    } */
-    
 }
-/* @media (max-width:991px){
+
+@media (max-width:991px){
+    .home .container .row{
+        justify-content: center;
+        align-items: center;
+    }
     .home .home-img,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -690,8 +670,9 @@ nav{
         flex: 0 0 100%;
         max-width: 100%;
     }
-} */
-@media (max-width:767px){
+    
+}
+@media (max-width:600px){
     .home .home-img,
     .home .home-info,
     .contact .contact-form .col-6,
@@ -706,22 +687,28 @@ nav{
         flex: 0 0 100%;
         max-width: 100% ;
     }
-    .home-info p{
+    .home-info p,
+    h3.my-profession{
         font-size: 14px;
     }
-   
-    h3.hello{
+    .aside .logo  a span,
+    .aside .nav li a{
         font-size: 16px;
+        font-weight: 700px;
+    }
+    h3.hello,
+    .portfolio-heading h2{
+        font-size: 16px;
+    }
+    .section-title h2{
+        font-size: 30px;
     } 
     h3.hello span{
         font-size: 16px;
         font-weight: 400;
     }
-    h3.my-profession{
-        font-size: 14px;
-    }
     nav{
         display: flex;
     }
-   
+
 }
