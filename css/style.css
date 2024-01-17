@@ -691,8 +691,11 @@ nav{
     h3.my-profession{
         font-size: 14px;
     }
-    .aside .logo  a span,
     .aside .nav li a{
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    .aside .logo  a span{
         font-size: 16px;
         font-weight: 700px;
     }
