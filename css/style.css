@@ -69,6 +69,7 @@ ul{
 }
 .section .container{
     padding-bottom: 60px;
+    padding-top: 80px;
 }
 .section-title{
     flex: 0 0 100%;
@@ -181,8 +182,7 @@ nav .menu li a.active{
     margin-top: 50px;
 }
 .aside .logo a{
-    /* color: var(--text-black-900); */
-    color: #997a8d ;
+    color: var(--skin-color);
     font-weight: 700;
     padding: 10px;
     font-size: 30px;
@@ -191,13 +191,6 @@ nav .menu li a.active{
 .aside .logo a span{
     font-family: 'Lobster Two', cursive;
     font-size: 40px;
-}
-.aside .nav-toggler span{
-    width: 18px;
-    height: 2px;
-    background: var(--skin-color);
-    display: inline-block;
-    position: relative;
 }
 .aside .nav{
     margin-top: 50px;
@@ -213,9 +206,9 @@ nav .menu li a.active{
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
-    margin-right: 15px;
+    /* margin-right: 10px; */
 }
-.aside .nav li a.active{
+.aside .nav li a:hover{
     color: var(--skin-color);
 }
 
@@ -562,9 +555,10 @@ h3.my-profession{
 
 /* Footer */
 footer {
-    /* background-color: #322D31; */
     background-color: var(--bottom-footer);
     text-align: center;
+    padding-top: 10px;
+    font-family: monospace;
 }
 .footer {
     background-color: var(--top-footer);
@@ -600,7 +594,57 @@ nav{
 /* Responsiveness  */
 @media (max-width:1199px){
     .aside{
-        left:-270px
+        width: 100%;
+        height: 60px;
+        display: flex;
+        padding: 0;
+        top: 0;
+        position: fixed;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        border-bottom: 1px solid var(--bg-black-50);
+        /* z-index: 10; */
+    }
+    .aside .logo{
+        /* width: auto; */
+        width: 30%;
+        height: 100%;
+        position: relative;
+        /* margin: auto; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside .logo a span{
+        font-size: 30px;
+    }
+    .aside .nav{
+        width: 70%;
+        height: 100%;
+        position: relative;
+        /* margin: auto; */
+        margin-top: 0;
+        display: flex;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside .nav li {
+        margin-bottom: 0px;
+        display: flex;
+    }
+    .aside .nav li a{
+        /* display: flex;
+        padding: 10px 10px; */
+        font-size: 18px;
+        font-weight: 600;
+        border-style: none;
+        color: var(--text-black-900);
     }
     .main-content{
         padding-left: 0;
@@ -609,9 +653,32 @@ nav{
         display: block;
         margin-left: 0;
     }
+    /* h3.hello{
+        font-size: 30px;
+        margin: 15px 0;
+    } 
+    h3.hello span{
+        font-family: 'Concert One';
+        font-size: 30px;
+        font-weight: 700;
+        margin: 15px 0;
+        color: var(--skin-color);
+    }
+    h3.my-profession{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .typing{
+        color: var(--skin-color);
+    }
+    .home-info p{
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: var(--text-black-700);
+    } */
     
 }
-@media (max-width:991px){
+/* @media (max-width:991px){
     .home .home-img,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -623,7 +690,7 @@ nav{
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
+} */
 @media (max-width:767px){
     .home .home-img,
     .home .home-info,

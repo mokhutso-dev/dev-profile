@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-switcher.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
+    <!-- <link rel="stylesheet" href="css/skins/color-1.css"> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -15,7 +15,7 @@
 <body>
     <div class="main-container">
         <!-- Horizontal navigation  -->
-        <nav>
+        <nav class="hidden">
             <div class="menu-logo">
                 <a href="#contact"><span>Mokhutso-dev </span></a>
             </div>
@@ -34,9 +34,9 @@
             </div>
             
             <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
             </ul>
         </div>
 
@@ -97,28 +97,28 @@
                                         <div class="skill-item padd-15">
                                             <h5>Python, Java, JavaScript</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width:  86%;"></div>
-                                                <div class="skill-percent">86%</div>
+                                                <div class="progress-in" style="width:  80%;"></div>
+                                                <div class="skill-percent">80%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
                                             <h5>Django, NodeJS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:  70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SQL, MongoDB</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:  76%;"></div>
                                                 <div class="skill-percent">76%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
-                                            <h5>MySQL, MongoDB</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width:  66%;"></div>
-                                                <div class="skill-percent">70%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
                                             <h5>HTML, CSS, Bootstrap</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width:  76%;"></div>
+                                                <div class="progress-in" style="width:  85%;"></div>
                                                 <div class="skill-percent">85%</div>
                                             </div>
                                         </div>
@@ -132,8 +132,8 @@
                                         <div class="skill-item padd-15">
                                             <h5>JUnit, Unittest</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width:  66%;"></div>
-                                                <div class="skill-percent">66%</div>
+                                                <div class="progress-in" style="width:  60%;"></div>
+                                                <div class="skill-percent">60%</div>
                                             </div>
                                         </div>
                                     </div>
@@ -191,75 +191,6 @@
                 </div>
             </section>
 
-            <section class="contact section hidden" id="contact" >
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title">Have Any Questions ?</h3>
-                    <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
-                    <div class="row">
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Call me on</h4>
-                        </div>
-
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                        </div>
-
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>Conect with me on</h4>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                    <h4 class="contact-sub-title padd-15">Working on it!</h4>
-
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                </div>
-
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" id="" class="form-control" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <button type="submit" class="btn">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
             <div class="footer">
                 <div class="footer-container padd-15">
                     <div class="column">
@@ -290,7 +221,7 @@
             </div>
 
             <footer>
-                <p>Mokhutso-dev All rights reserved &copy 2024</p>
+                <p>&copy 2024 Mokhutso-dev. All rights reserved </p>
             </footer>
         
         
