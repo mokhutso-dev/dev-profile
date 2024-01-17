@@ -110,55 +110,6 @@ ul{
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-/* Horizontal */
-nav{
-    height: 50px;
-    background: var(--bg-black-100);
-    position: fixed;
-    /* left: 0; */
-    /* top: 0; */
-    padding: 30px;
-    width: 100%;
-    border-bottom: 2px solid var(--bg-black-50);
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    z-index: 10;
-}
-nav .menu-logo{
-    flex: 0 0 30%;
-    /* padding: 10px; */
-    margin-left: -15px;
-}
-nav .menu{
-    font-size: 14px;
-    flex: 0 0 70%;
-    display: flex;
-    justify-content: center;
-}
-nav .menu li {
-    flex: 0 0 33.33%;
-    /* padding: 10px; */
-}
-nav .menu-logo a span{
-    font-family: 'Lobster Two', cursive;
-    font-size: 16px;
-    font-weight: 900;
-}
-nav .menu-logo a{
-    /* color: var(--text-black-900); */
-    color: #997a8d ;
-    /* font-weight: 700;
-    padding: 10px;
-    font-size: 30px;
-    position: relative; */
-}
-nav .menu li a{
-    color: var(--text-black-900);
-}
-nav .menu li a.active{
-    color: var(--skin-color);
-}
 
 /* Aside  */
 .aside{
@@ -202,12 +153,13 @@ nav .menu li a.active{
 .aside .nav li a{
     font-size: 18px;
     font-weight: 600;
-    display: block;
+    display: flex;
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
     /* margin-right: 10px; */
 }
+
 .aside .nav li a:hover{
     color: var(--skin-color);
 }
@@ -292,7 +244,7 @@ h3.my-profession{
     color: var(--skin-color);
 }
 .about .about-content .about-text p{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
     color: var(--text-black-700);
 }
@@ -326,7 +278,6 @@ h3.my-profession{
     margin-right: 15px;
     margin-top: 10px;
 }
-
 .about .about-content .skills{
     flex: 0 0 70%;
     max-width: 70%;
@@ -688,16 +639,14 @@ nav{
         max-width: 100% ;
     }
     .home-info p,
-    h3.my-profession{
+    .aside .nav li a,
+    h3.my-profession,
+    .about .about-content .about-text p{
         font-size: 14px;
     }
-    .aside .nav li a{
-        font-size: 12px;
-        font-weight: 400px;
-    }
     .aside .logo  a span{
-        font-size: 16px;
-        font-weight: 700px;
+        font-size: 18px;
+        font-weight: 400px;
     }
     h3.hello,
     .portfolio-heading h2{
