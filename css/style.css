@@ -713,5 +713,10 @@ nav{
     nav{
         display: flex;
     }
-
+    .aside .logo{
+        width: 15%;
+    }
+    .aside .nav{
+        width: 85%;
+    }
 }
