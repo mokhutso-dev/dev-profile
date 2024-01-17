@@ -688,13 +688,13 @@ nav{
         max-width: 100% ;
     }
     .home-info p,
+    .aside .nav li a,
     h3.my-profession{
         font-size: 14px;
     }
-    .aside .logo  a span,
-    .aside .nav li a{
-        font-size: 16px;
-        font-weight: 700px;
+    .aside .logo  a span{
+        font-size: 18px;
+        font-weight: 400px;
     }
     h3.hello,
     .portfolio-heading h2{
