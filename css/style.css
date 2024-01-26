@@ -321,7 +321,6 @@ h3.my-profession{
     font-weight: 400;
     line-height: 40px;
 }
-.about .about-content .education,
 .about .about-content .experience{
     flex: 0 0 100%;
     max-width: 70%;
@@ -438,9 +437,6 @@ h3.my-profession{
     font-size: 18px;
     font-weight: 400;
     color: var(--skin-color);
-}
-.portfolio .portfolio-item-inner .project-description span{
-    font-weight: 700;
 }
 .portfolio .portfolio-item-inner .project-description{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -661,7 +657,7 @@ nav{
     }
     
 }
-@media (max-width:600px){
+@media (max-width:400px){
     .home .home-img,
     .home .home-info,
     .contact .contact-form .col-6,
@@ -704,4 +700,11 @@ nav{
         display: flex;
     }
 
+    .about .about-content .timeline .timeline-title{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .about .about-content .timeline .timeline-text{
+        font-size: 14px;
+    }
 }
