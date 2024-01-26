@@ -438,6 +438,10 @@ h3.my-profession{
     font-weight: 400;
     color: var(--skin-color);
 }
+.bold{
+    font-weight: 700;
+
+}
 .portfolio .portfolio-item-inner .project-description{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--text-black-900);
