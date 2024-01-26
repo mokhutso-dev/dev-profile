@@ -323,9 +323,10 @@ h3.my-profession{
 }
 .about .about-content .education,
 .about .about-content .experience{
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 70%;
     margin-top: 30px;
+    
 }  
 .about .about-content h3.title{
     font-size: 24px;
@@ -416,8 +417,8 @@ h3.my-profession{
     font-weight: 500;
 }
 .portfolio .portfolio-item{
-    flex:  0 0 33.33%;
-    max-width: 33.33%;
+    flex:  0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner{
@@ -429,6 +430,40 @@ h3.my-profession{
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
+}
+.portfolio .portfolio-item-inner .project-title{
+    margin-top: 1% ;
+    margin-bottom: 1% ;
+    font-family: Concert One;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--skin-color);
+}
+.portfolio .portfolio-item-inner .project-description span{
+    font-weight: 700;
+}
+.portfolio .portfolio-item-inner .project-description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-black-900);
+}
+.timeline-link,
+.portfolio .portfolio-item-inner .project-link{
+    /* border: 2px solid #535878; */
+    text-align: right;
+    margin-right: 10%;
+}
+.timeline-link a,
+.portfolio .portfolio-item-inner .project-link a{
+    /* font-family: 'Concert One'; */
+    font-family: monospace;
+    text-decoration: none;
+    color: var(--skin-color);
+    font-size: 16px;   
+}
+.timeline-item .timeline-link a:hover,
+.portfolio .portfolio-item-inner .project-link a:hover{
+    color: #b70b37;
+    transition: all 0.1s ease;
 }
 
 /* Contact  */
@@ -537,7 +572,7 @@ footer {
 }
 .footer .footer-container .footer-title{
     font-size: 20px;
-    color: #070438;
+    color: #57497b;
     font-family: 'Concert One';
     margin-bottom: 10px;
 }
