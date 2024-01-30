@@ -602,12 +602,9 @@ nav{
         z-index: 10;
         border-bottom: 1px solid var(--bg-black-50);
     }
-    .aside .logo a {
-        font-weight: 100;
-    }
     .aside .logo{
         /* width: auto; */
-        width: 100%;
+        width: 30%;
         height: 100%;
         position: relative;
         /* margin: auto; */
@@ -624,7 +621,7 @@ nav{
         
     }
     .aside .nav{
-        width: 100%;
+        width: 60%;
         height: 100%;
         position: relative;
         /* margin: auto; */
