@@ -661,7 +661,7 @@ nav{
     }
     
 }
-@media (max-width:400px){
+@media (max-width:600px){
     .home .home-img,
     .home .home-info,
     .contact .contact-form .col-6,
@@ -680,10 +680,10 @@ nav{
     .aside .nav li a,
     h3.my-profession,
     .about .about-content .about-text p{
-        font-size: 14px;
+        font-size: 10px;
     }
     .aside .logo  a span{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400px;
     }
     .aside .nav li a i{
@@ -691,13 +691,13 @@ nav{
     }
     h3.hello,
     .portfolio-heading h2{
-        font-size: 16px;
+        font-size: 12px;
     }
     .section-title h2{
-        font-size: 30px;
+        font-size: 24px;
     } 
     h3.hello span{
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
     }
     nav{
@@ -706,9 +706,9 @@ nav{
 
     .about .about-content .timeline .timeline-title{
         font-weight: 500;
-        font-size: 16px;
+        font-size: 12px;
     }
     .about .about-content .timeline .timeline-text{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
