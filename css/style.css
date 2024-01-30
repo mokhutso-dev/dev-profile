@@ -135,7 +135,7 @@ ul{
 .aside .logo a{
     color: var(--skin-color);
     font-weight: 700;
-    /* padding: 10px; */
+    padding: 10px;
     font-size: 30px;
     position: relative;
 }
@@ -614,14 +614,12 @@ nav{
         top: 0;
         justify-content: center;
         align-items: center;
-
     }
     .aside .logo a span{
         font-size: 30px;
-        
     }
     .aside .nav{
-        width: 70%;
+        width: 50%;
         height: 100%;
         position: relative;
         /* margin: auto; */
@@ -661,10 +659,7 @@ nav{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .aside .nav li a{
-        padding: 0px 15px;
-        /* margin-right: 10px; */
-    }
+    
 }
 @media (max-width:600px){
     .home .home-img,
