@@ -715,8 +715,10 @@ nav{
         font-weight: 700;
         font-size: 14px;
     }
-    .about .about-content .timeline .timeline-date,
-    .about .about-content .timeline .timeline-text{
+    .about .about-content .timeline .timeline-date{
         font-size: 14px;
+    }
+    .about .about-content .timeline .timeline-text{
+        font-size: 12px;
     }
 }
