@@ -550,7 +550,11 @@ footer {
     font-family: monospace;
 }
 .footer {
-    background-color: var(--top-footer);
+    background: var(--bg-black-100);
+    border-top: 2px solid var(--bg-black-50);
+    /* display: flex; */
+    justify-self: center;
+    align-items: center;
 }
 .footer .footer-container{
     display: flex;
@@ -559,22 +563,26 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
-.footer .footer-container li a{
-    color: var(--bg-black-900);
-
-}
 .footer .footer-container .column{
-    /* background-color: yellow; */
     flex: 0 0 33.33%;
-    /* padding: 15px; */
     margin-bottom: 2px;
     text-align: center;
 }
 .footer .footer-container .footer-title{
-    font-size: 20px;
-    color: #57497b;
-    font-family: 'Concert One';
+    font-size: 18px;
+    color: var(--skin-color);
+    font-weight: 700;
+    /* color: #57497b; */
+    font-family: 'Concert One' cursive;
     margin-bottom: 10px;
+}
+.footer .footer-container li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-900);
+}
+.footer .footer-container li a:hover{
+    color: var(--skin-color);
 }
 nav{
     display: none;
@@ -634,8 +642,6 @@ nav{
         display: flex;
     }
     .aside .nav li a{
-        /* display: flex;
-        padding: 10px 10px; */
         font-size: 18px;
         font-weight: 600;
         border-style: none;
