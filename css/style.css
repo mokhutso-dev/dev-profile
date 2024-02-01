@@ -682,9 +682,10 @@ nav{
         flex: 0 0 100%;
         max-width: 100% ;
     }
-    /* .timeline-date */
+    .aside .nav li a{
+        font-size: 10px;
+    }
     .home-info p,
-    .aside .nav li a,
     h3.my-profession,
     .about .about-content .about-text p{
         font-size: 14px;
