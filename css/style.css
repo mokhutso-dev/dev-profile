@@ -682,11 +682,12 @@ nav{
         flex: 0 0 100%;
         max-width: 100% ;
     }
+    /* .timeline-date */
     .home-info p,
     .aside .nav li a,
     h3.my-profession,
     .about .about-content .about-text p{
-        font-size: 10px;
+        font-size: 14px;
     }
     .aside .logo  a span{
         font-size: 16px;
@@ -697,24 +698,24 @@ nav{
     }
     h3.hello,
     .portfolio-heading h2{
-        font-size: 12px;
+        font-size: 14px;
     }
     .section-title h2{
         font-size: 24px;
     } 
     h3.hello span{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
     }
-    nav{
+    /* nav{
         display: flex;
-    }
-
+    } */
     .about .about-content .timeline .timeline-title{
-        font-weight: 500;
-        font-size: 12px;
+        font-weight: 700;
+        font-size: 14px;
     }
+    .about .about-content .timeline .timeline-date,
     .about .about-content .timeline .timeline-text{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
