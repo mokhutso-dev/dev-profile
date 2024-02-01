@@ -648,7 +648,6 @@ nav{
         color: var(--text-black-900);
     }
 }
-
 @media (max-width:991px){
     .home .container .row{
         justify-content: center;
@@ -719,6 +718,12 @@ nav{
         font-size: 14px;
     }
     .about .about-content .timeline .timeline-text{
+        font-size: 12px;
+    }
+    .footer .footer-container .footer-title{
+        font-size: 14px;
+    }
+    .footer .footer-container li a{
         font-size: 12px;
     }
 }
